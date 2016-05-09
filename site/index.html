@@ -4,76 +4,7 @@
 	<title>Hello World</title>
 </head>
 <body>
-	<style>
-		* {
-			box-sizing: border-box;
-		}
-		h1 {
-			text-align: center;
-		}
-		div.menu-item {
-			background-color: #999999;
-			border: 1px solid black;
-			margin-left: 1%;
-		}
-		div.menu-item>p.description {
-			clear : right;
-	
-		}
-		.chicken-corner-tab , .beef-corner-tab , .sushi-corner-tab {
-			position: relative;
-			top: -1px;
-			right: -1px;
-			border: 1px solid black;
-			padding: 3px 10% 3px 10%;
-			float: right;
-		}
-		div.menu-item>div.chicken-corner-tab {
-			background-color: #D59898;
-		}
-		div.menu-item>div.beef-corner-tab {
-			background-color: #C14543;
-		}
-		div.menu-item>div.sushi-corner-tab {
-			background-color: #E5D198;
-		}
-		div>p.description {
-			margin-left: 8px;
-			clear : right;
-		}
-		@media (min-width: 992px) {
-			div.menu-item {
-				width: 32%;
-				float: left;
-			}
-		}
-
-		@media (min-width: 768px) and (max-width: 991px) {
-			div.menu-item{
-				float: left;
-			}
-			div.chicken-menu-item , div.beef-menu-item {
-				width: 48%;
-				margin-bottom: 10px
-			}
-			div.sushi-menu-item {
-				width: 97%;
-				clear: left;
-			}
-			div.sushi-menu-item>p{
-				width: 100%;
-			}
-		}
-
-		@media (max-width: 767px) { 
-			div.menu-item{
-				float: left;
-				clear: both;
-				margin: 2% 7% 2% 7%;
-			}
-		}
-
-	</style> 
+	<link rel="stylesheet" href="styles.css">
 	<h1> Our Menu </h1>
 	<div class="menu-item chicken-menu-item"> 
 		<div class="chicken-corner-tab">Chicken</div> 
